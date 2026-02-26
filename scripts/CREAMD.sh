@@ -1,0 +1,19 @@
+python -u main.py \
+    --dataset CREMAD \
+    --optimizer sgd \
+    --fps 1 \
+    --frames 3 \
+    --modulation Normal \
+    --fusion_method concat \
+    --loss_type TCMax \
+    --batch_size 32 \
+    --test_batch_size 48 \
+    --epochs 200 \
+    --lr_decay_step 170 \
+    --lr_decay_ratio 0.1 \
+    --learning_rate  0.001 \
+    --num_workers 16 \
+    --gpu_ids '0' \
+    --tensorboard_path "./tb_output" \
+    --use_tensorboard \
+    --rounds 3 

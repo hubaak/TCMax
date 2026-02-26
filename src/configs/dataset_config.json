@@ -1,0 +1,17 @@
+{
+    "CREMA-D" : {
+        "dataroot" : "Path to CREMA-D dataset"
+    },
+    "Kinetics-Sounds" : {
+        "dataroot" : "Path to KS dataset"
+    },
+    "AVE" : {
+        "dataroot" : "Path to AVE dataset"
+    },
+    "VGGSound" : {
+        "dataroot" : "Path to VGGSound dataset"
+    },
+    "UCF101" : {
+        "dataroot" : "Path to UCF101 dataset"
+    }
+}

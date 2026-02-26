@@ -1,0 +1,20 @@
+python -u main.py \
+    --dataset UCF101 \
+    --optimizer sgd \
+    --fps 1 \
+    --frames 3 \
+    --OF_frames 10 \
+    --modulation Normal \
+    --fusion_method concat \
+    --loss_type TCMax \
+    --batch_size 32 \
+    --test_batch_size 48 \
+    --epochs 400 \
+    --lr_decay_step 300 \
+    --lr_decay_ratio 0.1 \
+    --learning_rate  0.001 \
+    --num_workers 16 \
+    --gpu_ids '0' \
+    --tensorboard_path "./tb_output" \
+    --use_tensorboard \
+    --rounds 3

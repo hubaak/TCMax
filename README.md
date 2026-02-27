@@ -65,6 +65,7 @@ sh scripts/CREAMD.sh
 
 ## TCMax Implementation
 TCMax loss for two modalities $(a)$ and $(v)$ is denoted as:
+
 $$
 \begin{equation}
     \begin{split}
@@ -82,6 +83,7 @@ $$
 $$
 
 With linear fusions (Concat, Share Head, Sum), there is a faster implementation of TCMax:
+
 $$
 \begin{equation}
     \begin{split}
